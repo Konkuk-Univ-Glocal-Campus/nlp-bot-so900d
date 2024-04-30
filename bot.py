@@ -34,13 +34,13 @@ random_responses = ["그거 참 흥미로운 주제네!!! 더 말해주라!",
                     "너의 TMI를 알려줘"]
 
 print("안녕!! 나는 Marvin이야! 아주 간단하고도 고능한 로봇이지 ㅎㅎ")
-print("만약 이 대화를 그만두고 다른 할 일을 찾아 가야 한다면 '갈게'라고 입력해줘!")
+print("만약 이 대화를 그만두고 다른 할 일을 찾아 가야 한다면 '이만 갈게'라고 입력해줘!")
 print("너의 답을 입력한 뒤에 'enter'를 눌러줘")
 print("밥은 먹었어?")
 
 while True:
     user_input = input("> ")
-    if user_input.lower() == "그만하자":
+    if user_input.lower() == "이만 갈게":
         # if they typed in 'bye' (or even BYE, ByE, byE etc.), break out of the loop
         break
     else:
